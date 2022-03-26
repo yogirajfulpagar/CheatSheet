@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightslategrey;
+}
+
+.container {
+  background-color: cadetblue;
+  width: 60vw;
+  margin: auto;
+  padding: 30px 0;
+  font-weight: bold;
+}
+
+.logo {
+  padding: 0 23px;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.toolbar-item button {
+  cursor: pointer !important;
+  color: wheat !important;
+  border: 1px solid snow !important;
+  border-radius: 16px !important;
+  padding: 5px 14px !important;
+}
